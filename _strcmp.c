@@ -12,20 +12,20 @@
 
 int _strcmp(char *str1, char *str2)
 {
-    int c;
+	int c;
 
-    while (*str1 != '\0' && *str2 != '\0')
-    {
-        if (*str1 != *str2)
-        {
-            c = (int)(*str1) - (int)(*str2);
-            return (c);
-            }
-            str1++;
-            str2++;
-    }
+	while (*str1 != '\0' && *str2 != '\0')
+	{
+		if (*str1 != *str2)
+		{
+			c = (int)(*str1) - (int)(*str2);
+			return (c);
+		}
+		str1++;
+		str2++;
+	}
 
-    c = (int)(*str1) - (int)(*str2);
+	c = (int)(*str1) - (int)(*str2);
 
-    return (c);
+	return (c);
 }
