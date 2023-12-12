@@ -1,1 +1,1 @@
-our simple shill progict "Mohamed maher and peter sameh"
+our Simple Shell project "Mohamed maher and peter sameh"
